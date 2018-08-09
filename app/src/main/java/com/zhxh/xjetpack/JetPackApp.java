@@ -4,7 +4,7 @@ import android.app.Application;
 
 import timber.log.Timber;
 
-public class JetPack extends Application {
+public class JetPackApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
