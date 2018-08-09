@@ -1,4 +1,4 @@
-package com.zhxh.xjetpack.ui.base;
+package com.zhxh.xjetpack.app.base;
 
 import android.support.v7.app.AppCompatActivity;
 

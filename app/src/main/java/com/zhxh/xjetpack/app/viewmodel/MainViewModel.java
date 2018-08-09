@@ -1,4 +1,4 @@
-package com.zhxh.xjetpack.ui.viewmodel;
+package com.zhxh.xjetpack.app.viewmodel;
 
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:name=".JetPack"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.ui.MainActivity">
+        <activity android:name=".app.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

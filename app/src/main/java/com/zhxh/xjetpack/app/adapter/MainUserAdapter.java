@@ -1,4 +1,4 @@
-package com.zhxh.xjetpack.ui.adapter;
+package com.zhxh.xjetpack.app.adapter;
 
 import android.content.Context;
 import android.databinding.DataBindingUtil;

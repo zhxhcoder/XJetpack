@@ -1,4 +1,4 @@
-package com.zhxh.xjetpack.ui.ui;
+package com.zhxh.xjetpack.app.ui;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.databinding.DataBindingUtil;
@@ -12,8 +12,8 @@ import android.widget.EditText;
 import com.zhxh.xjetpack.R;
 import com.zhxh.xjetpack.data.model.User;
 import com.zhxh.xjetpack.databinding.ActivityMainBinding;
-import com.zhxh.xjetpack.ui.adapter.MainUserAdapter;
-import com.zhxh.xjetpack.ui.viewmodel.MainViewModel;
+import com.zhxh.xjetpack.app.adapter.MainUserAdapter;
+import com.zhxh.xjetpack.app.viewmodel.MainViewModel;
 
 import java.util.List;
 
