@@ -15,26 +15,33 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/firstName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
-
-            <EditText
                 android:id="@+id/lastName"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:hint="输入姓氏" />
+
+            <EditText
+                android:id="@+id/firstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入名字" />
+
 
             <EditText
                 android:id="@+id/age"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:hint="输入年龄"
+                android:inputType="number" />
 
             <Button
                 android:id="@+id/saveUser"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
                 android:background="@color/colorAccent"
-                android:text="Save User"
+                android:text="保存用户"
                 android:textColor="@color/white" />
 
         </LinearLayout>

@@ -62,17 +62,17 @@ public class MainActivity extends AppCompatActivity {
             String age = etAge.getText().toString().trim();
 
             if (firstName.isEmpty()) {
-                etfirstName.setError("Please Enter First Name");
+                etfirstName.setError("输入名字");
                 return;
             }
 
             if (lastName.isEmpty()) {
-                etlastName.setError("Please Enter Last Name");
+                etlastName.setError("输入姓氏");
                 return;
             }
 
             if (age.isEmpty()) {
-                etAge.setError("Please Enter Your Age");
+                etAge.setError("输入年龄");
                 return;
             }
 
